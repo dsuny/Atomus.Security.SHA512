@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Atomus</RootNamespace>
+    <AssemblyName>Atomus.Security.SHA512</AssemblyName>
+    <Authors>DSUN</Authors>
+    <Company>Atomus</Company>
+    <Product>Atomus Framework in .Net Standard 2.0</Product>
+    <Description>Atomus Framework in .Net Standard 2.0</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright 2020. DSUN all rights reserved.</Copyright>
+    <PackageProjectUrl>https://github.com/dsuny/Atomus.Security.SHA512</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dsuny/Atomus.Security.SHA512</RepositoryUrl>
+    <PackageIcon>atomus.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Atomus Atomus.Core Security SHA512 AtomusFramework</PackageTags>
+    <PackageReleaseNotes>release 1.0.0</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\src\SHA512.cs" Link="SHA512.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\image\atomus.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Atomus.Core.dotNetStandard" Version="1.0.2.2" />
+  </ItemGroup>
+
+</Project>

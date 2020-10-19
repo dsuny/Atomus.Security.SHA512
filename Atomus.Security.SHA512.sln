@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A5C8336-14F3-4B26-AFFA-7570C4753945}"
+	ProjectSection(SolutionItems) = preProject
+		src\SHA512.cs = src\SHA512.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Security.SHA512(dotNet)", "dotNet\Atomus.Security.SHA512(dotNet).csproj", "{733D0A69-1327-4E67-926A-C0A8C1E5CE94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Security.SHA512(dotNetCore)", "dotNetCore\Atomus.Security.SHA512(dotNetCore).csproj", "{7064F85B-7E16-47F8-9989-881111F60568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Security.SHA512(dotNetStandard)", "dotNetStandard\Atomus.Security.SHA512(dotNetStandard).csproj", "{BB593A2E-9FF9-4FCB-AEEE-1308C21D8FE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{733D0A69-1327-4E67-926A-C0A8C1E5CE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733D0A69-1327-4E67-926A-C0A8C1E5CE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733D0A69-1327-4E67-926A-C0A8C1E5CE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733D0A69-1327-4E67-926A-C0A8C1E5CE94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7064F85B-7E16-47F8-9989-881111F60568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7064F85B-7E16-47F8-9989-881111F60568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7064F85B-7E16-47F8-9989-881111F60568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7064F85B-7E16-47F8-9989-881111F60568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB593A2E-9FF9-4FCB-AEEE-1308C21D8FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB593A2E-9FF9-4FCB-AEEE-1308C21D8FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB593A2E-9FF9-4FCB-AEEE-1308C21D8FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB593A2E-9FF9-4FCB-AEEE-1308C21D8FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5BB2663-4679-45AB-AD6B-BB57028ACA9C}
+	EndGlobalSection
+EndGlobal
